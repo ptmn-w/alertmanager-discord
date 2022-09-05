@@ -26,4 +26,4 @@ ENV LISTEN_ADDRESS=0.0.0.0:9094
 EXPOSE 9094
 USER appuser
 ENTRYPOINT ["/go/bin/alertmanager-discord"]
-ENV DISCORD_WEBHOOK=https://discord.com/api/webhooks/1006410515096023061/rMzSoIdqM4YKkWkYZKVKdmiWKdG7PqXiodm02aBlji3x_AaB2fQp4Gl2bn8EgDiMVrm_
+ENV DISCORD_WEBHOOK=
